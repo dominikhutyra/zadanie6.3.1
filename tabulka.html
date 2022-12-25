@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabulka</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+
+      tr,
+      td,
+      th {
+        border: solid black 2px;
+      }
+      tr:nth-child(even) {
+        background-color: #a8a9a4;
+      }
+      .obrazok {
+        float: left;
+        margin-right: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Domov</a>
+    <table>
+      <thead style="background: linear-gradient(#db1a1ac1, #1e2ee1)">
+        <tr>
+          <th>Poradie</th>
+          <th>Názov filmu</th>
+          <th>Rok vydania</th>
+          <th>Hodnotenie v percentách &#37;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: right">1.Miesto</td>
+          <td>Vykúpenie z väznice Shawshank</td>
+          <td>1994</td>
+          <td style="color: green">95,3 &#37;</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">2.Miesto</td>
+          <td>Forrest Gump</td>
+          <td>1994</td>
+          <td style="color: green">94,5</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">3.Miesto</td>
+          <td>Zelená míľa</td>
+          <td>1999</td>
+          <td style="color: green">92,9</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">4.Miesto</td>
+          <td>Sedem</td>
+          <td>1995</td>
+          <td style="color: green">92,4</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">5.Miesto</td>
+          <td>Prelet nad kukučím hniezdom</td>
+          <td>1975</td>
+          <td style="color: green">92,5</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">6.Miesto</td>
+          <td>Schindlerov zoznam</td>
+          <td>1993</td>
+          <td style="color: green">92,3</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">7.Miesto</td>
+          <td>Krstný otec</td>
+          <td>1972</td>
+          <td>91,8</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">8.Miesto</td>
+          <td>Dvanásť rozhnevaných mužov</td>
+          <td>1957</td>
+          <td>91,4</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">9.Miesto</td>
+          <td>Nedotknuteľný</td>
+          <td>2011</td>
+          <td>91,3</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">10.Miesto</td>
+          <td>Pelechy</td>
+          <td>1999</td>
+          <td>91,2</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">11.Miesto</td>
+          <td>Terminátor 2</td>
+          <td>1991</td>
+          <td>90,2</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">12.Miesto</td>
+          <td>Pulp Fiction</td>
+          <td>1994</td>
+          <td>90,7</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">13.Miesto</td>
+          <td>Krstný otec 2</td>
+          <td>1974</td>
+          <td>90,8</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">14.Miesto</td>
+          <td>Pán prsteňov : Spoločenstvo Prsteňa</td>
+          <td>2001</td>
+          <td>90,6</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">15.Miesto</td>
+          <td>Pán prsteňov: Návrat kráľa</td>
+          <td>2003</td>
+          <td>90,5</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">16.Miesto</td>
+          <td>Mlčanie jahniat</td>
+          <td>1991</td>
+          <td>90,5</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">17.Miesto</td>
+          <td>Vtedy na Západe</td>
+          <td>1968</td>
+          <td>90,5</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">18.Miesto</td>
+          <td>Temný rytier</td>
+          <td>2008</td>
+          <td>90,4</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">19.Miesto</td>
+          <td>Gran Torino</td>
+          <td>2008</td>
+          <td>90,3</td>
+        </tr>
+        <tr>
+          <td style="text-align: right">20.Miesto</td>
+          <td>Matrix</td>
+          <td>1999</td>
+          <td>90,2</td>
+        </tr>
+      </tbody>
+    </table>
+    <h1>Top film : Vykúpenie z väznice Shawshank</h1>
+    <figure>
+      <figcaption>Tu je popis obrazka.</figcaption>
+      <img
+        src="365924_0f231c.jpg"
+        width="200"
+        height="250"
+        title="obrázok filmu"
+        alt="Vykúpenie z väznice Shawshank"
+        class="obrazok"
+      />
+    </figure>
+    <p>
+      Mladý bankéř Andy Dufresne (Tim Robbins) je v roce 1947 odsouzen za vraždu
+      své ženy a jejího milence. Přesto, že tento čin popírá, čeká na něj
+      dvojnásobný doživotní trest v obávané věznici Shawshank. Andy se snaží
+      přizpůsobit vězeňskému životu a po krušných začátcích se sblíží s Redem
+      (Morgan Freeman), jenž si tu odpykává svůj doživotní trest už dvacet let.
+      Sílu, jak přežít zdejší peklo, Andy nachází v tajném snu a skryté naději
+      na svobodu...
+    </p>
+    <audio src="lifelike-126735.mp3" controls autoplay></audio>
+  </body>
+</html>
